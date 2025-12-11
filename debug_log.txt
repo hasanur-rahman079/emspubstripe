@@ -907,3 +907,748 @@ Stripe Handle Data: array (
   'url' => NULL,
   'wallet_options' => NULL,
 )
+Stripe Handle Data: array (
+  'id' => 'cs_test_a1EQtBcZQmWD9mL8pWOlhI6Vlz6mva7GWq3HgepAfY4TANrg1s2WWL7sin',
+  'object' => 'checkout.session',
+  'adaptive_pricing' => 
+  array (
+    'enabled' => true,
+  ),
+  'after_expiration' => NULL,
+  'allow_promotion_codes' => NULL,
+  'amount_subtotal' => 14000,
+  'amount_total' => 14000,
+  'automatic_tax' => 
+  array (
+    'enabled' => false,
+    'liability' => NULL,
+    'provider' => NULL,
+    'status' => NULL,
+  ),
+  'billing_address_collection' => NULL,
+  'branding_settings' => 
+  array (
+    'background_color' => '#ffffff',
+    'border_style' => 'rounded',
+    'button_color' => '#0074d4',
+    'display_name' => 'New business sandbox',
+    'font_family' => 'default',
+    'icon' => NULL,
+    'logo' => NULL,
+  ),
+  'cancel_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=4&status=cancel',
+  'client_reference_id' => NULL,
+  'client_secret' => NULL,
+  'collected_information' => NULL,
+  'consent' => NULL,
+  'consent_collection' => NULL,
+  'created' => 1765446654,
+  'currency' => 'usd',
+  'currency_conversion' => NULL,
+  'custom_fields' => 
+  array (
+  ),
+  'custom_text' => 
+  array (
+    'after_submit' => NULL,
+    'shipping_address' => NULL,
+    'submit' => NULL,
+    'terms_of_service_acceptance' => NULL,
+  ),
+  'customer' => NULL,
+  'customer_account' => NULL,
+  'customer_creation' => 'if_required',
+  'customer_details' => 
+  array (
+    'address' => 
+    array (
+      'city' => NULL,
+      'country' => 'BD',
+      'line1' => NULL,
+      'line2' => NULL,
+      'postal_code' => NULL,
+      'state' => NULL,
+    ),
+    'business_name' => NULL,
+    'email' => 'support@exomeit.com',
+    'individual_name' => NULL,
+    'name' => 'Hasanur Rahman',
+    'phone' => NULL,
+    'tax_exempt' => 'none',
+    'tax_ids' => 
+    array (
+    ),
+  ),
+  'customer_email' => NULL,
+  'discounts' => 
+  array (
+  ),
+  'expires_at' => 1765533054,
+  'invoice' => NULL,
+  'invoice_creation' => 
+  array (
+    'enabled' => false,
+    'invoice_data' => 
+    array (
+      'account_tax_ids' => NULL,
+      'custom_fields' => NULL,
+      'description' => NULL,
+      'footer' => NULL,
+      'issuer' => NULL,
+      'metadata' => 
+      array (
+      ),
+      'rendering_options' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'locale' => NULL,
+  'metadata' => 
+  array (
+  ),
+  'mode' => 'payment',
+  'origin_context' => NULL,
+  'payment_intent' => 'pi_3Sd6WrFvChGrjgWH1SL0twAn',
+  'payment_link' => NULL,
+  'payment_method_collection' => 'if_required',
+  'payment_method_configuration_details' => NULL,
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'payment_status' => 'paid',
+  'permissions' => NULL,
+  'phone_number_collection' => 
+  array (
+    'enabled' => false,
+  ),
+  'presentment_details' => 
+  array (
+    'presentment_amount' => 1779407,
+    'presentment_currency' => 'bdt',
+  ),
+  'recovered_from' => NULL,
+  'saved_payment_method_options' => NULL,
+  'setup_intent' => NULL,
+  'shipping_address_collection' => NULL,
+  'shipping_cost' => NULL,
+  'shipping_options' => 
+  array (
+  ),
+  'status' => 'complete',
+  'submit_type' => NULL,
+  'subscription' => NULL,
+  'success_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=4&session_id={CHECKOUT_SESSION_ID}',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_shipping' => 0,
+    'amount_tax' => 0,
+  ),
+  'ui_mode' => 'hosted',
+  'url' => NULL,
+  'wallet_options' => NULL,
+)
+Stripe Handle Data: array (
+  'id' => 'cs_test_a1rMwul9dYipCBNDmjeOAwqZOGBWyguynyNAgL28ahdSuteLMuZzUIjnor',
+  'object' => 'checkout.session',
+  'adaptive_pricing' => 
+  array (
+    'enabled' => true,
+  ),
+  'after_expiration' => NULL,
+  'allow_promotion_codes' => NULL,
+  'amount_subtotal' => 14000,
+  'amount_total' => 14000,
+  'automatic_tax' => 
+  array (
+    'enabled' => false,
+    'liability' => NULL,
+    'provider' => NULL,
+    'status' => NULL,
+  ),
+  'billing_address_collection' => NULL,
+  'branding_settings' => 
+  array (
+    'background_color' => '#ffffff',
+    'border_style' => 'rounded',
+    'button_color' => '#0074d4',
+    'display_name' => 'New business sandbox',
+    'font_family' => 'default',
+    'icon' => NULL,
+    'logo' => NULL,
+  ),
+  'cancel_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=7&status=cancel',
+  'client_reference_id' => NULL,
+  'client_secret' => NULL,
+  'collected_information' => NULL,
+  'consent' => NULL,
+  'consent_collection' => NULL,
+  'created' => 1765448392,
+  'currency' => 'usd',
+  'currency_conversion' => NULL,
+  'custom_fields' => 
+  array (
+  ),
+  'custom_text' => 
+  array (
+    'after_submit' => NULL,
+    'shipping_address' => NULL,
+    'submit' => NULL,
+    'terms_of_service_acceptance' => NULL,
+  ),
+  'customer' => NULL,
+  'customer_account' => NULL,
+  'customer_creation' => 'if_required',
+  'customer_details' => 
+  array (
+    'address' => 
+    array (
+      'city' => NULL,
+      'country' => 'BD',
+      'line1' => NULL,
+      'line2' => NULL,
+      'postal_code' => NULL,
+      'state' => NULL,
+    ),
+    'business_name' => NULL,
+    'email' => 'support@exomeit.com',
+    'individual_name' => NULL,
+    'name' => 'Hasanur Rahman',
+    'phone' => NULL,
+    'tax_exempt' => 'none',
+    'tax_ids' => 
+    array (
+    ),
+  ),
+  'customer_email' => NULL,
+  'discounts' => 
+  array (
+  ),
+  'expires_at' => 1765534792,
+  'invoice' => NULL,
+  'invoice_creation' => 
+  array (
+    'enabled' => false,
+    'invoice_data' => 
+    array (
+      'account_tax_ids' => NULL,
+      'custom_fields' => NULL,
+      'description' => NULL,
+      'footer' => NULL,
+      'issuer' => NULL,
+      'metadata' => 
+      array (
+      ),
+      'rendering_options' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'locale' => NULL,
+  'metadata' => 
+  array (
+  ),
+  'mode' => 'payment',
+  'origin_context' => NULL,
+  'payment_intent' => 'pi_3Sd6yhFvChGrjgWH0Skt0YMF',
+  'payment_link' => NULL,
+  'payment_method_collection' => 'if_required',
+  'payment_method_configuration_details' => NULL,
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'payment_status' => 'paid',
+  'permissions' => NULL,
+  'phone_number_collection' => 
+  array (
+    'enabled' => false,
+  ),
+  'presentment_details' => 
+  array (
+    'presentment_amount' => 1779407,
+    'presentment_currency' => 'bdt',
+  ),
+  'recovered_from' => NULL,
+  'saved_payment_method_options' => NULL,
+  'setup_intent' => NULL,
+  'shipping_address_collection' => NULL,
+  'shipping_cost' => NULL,
+  'shipping_options' => 
+  array (
+  ),
+  'status' => 'complete',
+  'submit_type' => NULL,
+  'subscription' => NULL,
+  'success_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=7&session_id={CHECKOUT_SESSION_ID}',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_shipping' => 0,
+    'amount_tax' => 0,
+  ),
+  'ui_mode' => 'hosted',
+  'url' => NULL,
+  'wallet_options' => NULL,
+)
+Stripe Handle Data: array (
+  'id' => 'cs_test_a1k3rlMlI8S620QDKqEJkpZBRijMkL6XSCqb07YyALp7Dm6qQbBnkCHM7e',
+  'object' => 'checkout.session',
+  'adaptive_pricing' => 
+  array (
+    'enabled' => true,
+  ),
+  'after_expiration' => NULL,
+  'allow_promotion_codes' => NULL,
+  'amount_subtotal' => 14000,
+  'amount_total' => 14000,
+  'automatic_tax' => 
+  array (
+    'enabled' => false,
+    'liability' => NULL,
+    'provider' => NULL,
+    'status' => NULL,
+  ),
+  'billing_address_collection' => NULL,
+  'branding_settings' => 
+  array (
+    'background_color' => '#ffffff',
+    'border_style' => 'rounded',
+    'button_color' => '#0074d4',
+    'display_name' => 'New business sandbox',
+    'font_family' => 'default',
+    'icon' => NULL,
+    'logo' => NULL,
+  ),
+  'cancel_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=8&status=cancel',
+  'client_reference_id' => NULL,
+  'client_secret' => NULL,
+  'collected_information' => NULL,
+  'consent' => NULL,
+  'consent_collection' => NULL,
+  'created' => 1765453278,
+  'currency' => 'usd',
+  'currency_conversion' => NULL,
+  'custom_fields' => 
+  array (
+  ),
+  'custom_text' => 
+  array (
+    'after_submit' => NULL,
+    'shipping_address' => NULL,
+    'submit' => NULL,
+    'terms_of_service_acceptance' => NULL,
+  ),
+  'customer' => NULL,
+  'customer_account' => NULL,
+  'customer_creation' => 'if_required',
+  'customer_details' => 
+  array (
+    'address' => 
+    array (
+      'city' => NULL,
+      'country' => 'BD',
+      'line1' => NULL,
+      'line2' => NULL,
+      'postal_code' => NULL,
+      'state' => NULL,
+    ),
+    'business_name' => NULL,
+    'email' => 'support@exomeit.com',
+    'individual_name' => NULL,
+    'name' => 'Hasanur Rahman',
+    'phone' => NULL,
+    'tax_exempt' => 'none',
+    'tax_ids' => 
+    array (
+    ),
+  ),
+  'customer_email' => NULL,
+  'discounts' => 
+  array (
+  ),
+  'expires_at' => 1765539678,
+  'invoice' => NULL,
+  'invoice_creation' => 
+  array (
+    'enabled' => false,
+    'invoice_data' => 
+    array (
+      'account_tax_ids' => NULL,
+      'custom_fields' => NULL,
+      'description' => NULL,
+      'footer' => NULL,
+      'issuer' => NULL,
+      'metadata' => 
+      array (
+      ),
+      'rendering_options' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'locale' => NULL,
+  'metadata' => 
+  array (
+  ),
+  'mode' => 'payment',
+  'origin_context' => NULL,
+  'payment_intent' => 'pi_3Sd8FXFvChGrjgWH1dCpnjBQ',
+  'payment_link' => NULL,
+  'payment_method_collection' => 'if_required',
+  'payment_method_configuration_details' => NULL,
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'payment_status' => 'paid',
+  'permissions' => NULL,
+  'phone_number_collection' => 
+  array (
+    'enabled' => false,
+  ),
+  'presentment_details' => 
+  array (
+    'presentment_amount' => 1779056,
+    'presentment_currency' => 'bdt',
+  ),
+  'recovered_from' => NULL,
+  'saved_payment_method_options' => NULL,
+  'setup_intent' => NULL,
+  'shipping_address_collection' => NULL,
+  'shipping_cost' => NULL,
+  'shipping_options' => 
+  array (
+  ),
+  'status' => 'complete',
+  'submit_type' => NULL,
+  'subscription' => NULL,
+  'success_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=8&session_id={CHECKOUT_SESSION_ID}',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_shipping' => 0,
+    'amount_tax' => 0,
+  ),
+  'ui_mode' => 'hosted',
+  'url' => NULL,
+  'wallet_options' => NULL,
+)
+Stripe Handle Data: array (
+  'id' => 'cs_test_a1F5Kkji18gcMenFa873wAiMW2ybgmIIQ4ReRYzTPkcMJ6huFYBYq9ARcC',
+  'object' => 'checkout.session',
+  'adaptive_pricing' => 
+  array (
+    'enabled' => true,
+  ),
+  'after_expiration' => NULL,
+  'allow_promotion_codes' => NULL,
+  'amount_subtotal' => 6000,
+  'amount_total' => 6000,
+  'automatic_tax' => 
+  array (
+    'enabled' => false,
+    'liability' => NULL,
+    'provider' => NULL,
+    'status' => NULL,
+  ),
+  'billing_address_collection' => NULL,
+  'branding_settings' => 
+  array (
+    'background_color' => '#ffffff',
+    'border_style' => 'rounded',
+    'button_color' => '#0074d4',
+    'display_name' => 'New business sandbox',
+    'font_family' => 'default',
+    'icon' => NULL,
+    'logo' => NULL,
+  ),
+  'cancel_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=32&status=cancel',
+  'client_reference_id' => NULL,
+  'client_secret' => NULL,
+  'collected_information' => NULL,
+  'consent' => NULL,
+  'consent_collection' => NULL,
+  'created' => 1765473031,
+  'currency' => 'usd',
+  'currency_conversion' => NULL,
+  'custom_fields' => 
+  array (
+  ),
+  'custom_text' => 
+  array (
+    'after_submit' => NULL,
+    'shipping_address' => NULL,
+    'submit' => NULL,
+    'terms_of_service_acceptance' => NULL,
+  ),
+  'customer' => NULL,
+  'customer_account' => NULL,
+  'customer_creation' => 'if_required',
+  'customer_details' => 
+  array (
+    'address' => 
+    array (
+      'city' => NULL,
+      'country' => 'BD',
+      'line1' => NULL,
+      'line2' => NULL,
+      'postal_code' => NULL,
+      'state' => NULL,
+    ),
+    'business_name' => NULL,
+    'email' => 'support@exomeit.com',
+    'individual_name' => NULL,
+    'name' => 'Hasanur Rahman',
+    'phone' => NULL,
+    'tax_exempt' => 'none',
+    'tax_ids' => 
+    array (
+    ),
+  ),
+  'customer_email' => NULL,
+  'discounts' => 
+  array (
+  ),
+  'expires_at' => 1765559431,
+  'invoice' => NULL,
+  'invoice_creation' => 
+  array (
+    'enabled' => false,
+    'invoice_data' => 
+    array (
+      'account_tax_ids' => NULL,
+      'custom_fields' => NULL,
+      'description' => NULL,
+      'footer' => NULL,
+      'issuer' => NULL,
+      'metadata' => 
+      array (
+      ),
+      'rendering_options' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'locale' => NULL,
+  'metadata' => 
+  array (
+  ),
+  'mode' => 'payment',
+  'origin_context' => NULL,
+  'payment_intent' => 'pi_3SdDO4FvChGrjgWH1KHsWOoA',
+  'payment_link' => NULL,
+  'payment_method_collection' => 'if_required',
+  'payment_method_configuration_details' => NULL,
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'payment_status' => 'paid',
+  'permissions' => NULL,
+  'phone_number_collection' => 
+  array (
+    'enabled' => false,
+  ),
+  'presentment_details' => 
+  array (
+    'presentment_amount' => 762453,
+    'presentment_currency' => 'bdt',
+  ),
+  'recovered_from' => NULL,
+  'saved_payment_method_options' => NULL,
+  'setup_intent' => NULL,
+  'shipping_address_collection' => NULL,
+  'shipping_cost' => NULL,
+  'shipping_options' => 
+  array (
+  ),
+  'status' => 'complete',
+  'submit_type' => NULL,
+  'subscription' => NULL,
+  'success_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=32&session_id={CHECKOUT_SESSION_ID}',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_shipping' => 0,
+    'amount_tax' => 0,
+  ),
+  'ui_mode' => 'hosted',
+  'url' => NULL,
+  'wallet_options' => NULL,
+)
+Stripe Handle Data: array (
+  'id' => 'cs_test_a1uz10jL1IxGUXSEjaZGYYDdXCfh7BENAFkqoyRPBncethdwb12WCdnUSU',
+  'object' => 'checkout.session',
+  'adaptive_pricing' => 
+  array (
+    'enabled' => true,
+  ),
+  'after_expiration' => NULL,
+  'allow_promotion_codes' => NULL,
+  'amount_subtotal' => 1000,
+  'amount_total' => 1000,
+  'automatic_tax' => 
+  array (
+    'enabled' => false,
+    'liability' => NULL,
+    'provider' => NULL,
+    'status' => NULL,
+  ),
+  'billing_address_collection' => NULL,
+  'branding_settings' => 
+  array (
+    'background_color' => '#ffffff',
+    'border_style' => 'rounded',
+    'button_color' => '#0074d4',
+    'display_name' => 'New business sandbox',
+    'font_family' => 'default',
+    'icon' => NULL,
+    'logo' => NULL,
+  ),
+  'cancel_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=33&status=cancel',
+  'client_reference_id' => NULL,
+  'client_secret' => NULL,
+  'collected_information' => NULL,
+  'consent' => NULL,
+  'consent_collection' => NULL,
+  'created' => 1765473334,
+  'currency' => 'usd',
+  'currency_conversion' => NULL,
+  'custom_fields' => 
+  array (
+  ),
+  'custom_text' => 
+  array (
+    'after_submit' => NULL,
+    'shipping_address' => NULL,
+    'submit' => NULL,
+    'terms_of_service_acceptance' => NULL,
+  ),
+  'customer' => NULL,
+  'customer_account' => NULL,
+  'customer_creation' => 'if_required',
+  'customer_details' => 
+  array (
+    'address' => 
+    array (
+      'city' => NULL,
+      'country' => 'BD',
+      'line1' => NULL,
+      'line2' => NULL,
+      'postal_code' => NULL,
+      'state' => NULL,
+    ),
+    'business_name' => NULL,
+    'email' => 'support@exomeit.com',
+    'individual_name' => NULL,
+    'name' => 'Hasanur Rahman',
+    'phone' => NULL,
+    'tax_exempt' => 'none',
+    'tax_ids' => 
+    array (
+    ),
+  ),
+  'customer_email' => NULL,
+  'discounts' => 
+  array (
+  ),
+  'expires_at' => 1765559734,
+  'invoice' => NULL,
+  'invoice_creation' => 
+  array (
+    'enabled' => false,
+    'invoice_data' => 
+    array (
+      'account_tax_ids' => NULL,
+      'custom_fields' => NULL,
+      'description' => NULL,
+      'footer' => NULL,
+      'issuer' => NULL,
+      'metadata' => 
+      array (
+      ),
+      'rendering_options' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'locale' => NULL,
+  'metadata' => 
+  array (
+  ),
+  'mode' => 'payment',
+  'origin_context' => NULL,
+  'payment_intent' => 'pi_3SdDSxFvChGrjgWH1RulGORu',
+  'payment_link' => NULL,
+  'payment_method_collection' => 'if_required',
+  'payment_method_configuration_details' => NULL,
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'payment_status' => 'paid',
+  'permissions' => NULL,
+  'phone_number_collection' => 
+  array (
+    'enabled' => false,
+  ),
+  'presentment_details' => 
+  array (
+    'presentment_amount' => 127075,
+    'presentment_currency' => 'bdt',
+  ),
+  'recovered_from' => NULL,
+  'saved_payment_method_options' => NULL,
+  'setup_intent' => NULL,
+  'shipping_address_collection' => NULL,
+  'shipping_cost' => NULL,
+  'shipping_options' => 
+  array (
+  ),
+  'status' => 'complete',
+  'submit_type' => NULL,
+  'subscription' => NULL,
+  'success_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=33&session_id={CHECKOUT_SESSION_ID}',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_shipping' => 0,
+    'amount_tax' => 0,
+  ),
+  'ui_mode' => 'hosted',
+  'url' => NULL,
+  'wallet_options' => NULL,
+)
