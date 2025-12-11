@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-11T06:56:47-07:00\n"
+"PO-Revision-Date: 2025-12-11T06:56:47-07:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.paymethod.emspubstripe.displayName"
+msgstr "Stripe Payment (EMS.pub)"
+
+msgid "plugins.paymethod.emspubstripe.description"
+msgstr "EMS.pub Payment Plugin for accepting payments easily via Stripe."
+
+msgid "plugins.paymethod.emspubstripe"
+msgstr "Stripe Fee Payment"
+
+msgid "plugins.paymethod.emspubstripe.settings"
+msgstr "Stripe Payment Settings"
+
+msgid "plugins.paymethod.emspubstripe.settings.testMode"
+msgstr "Test Mode"
+
+msgid "plugins.paymethod.emspubstripe.settings.accountName"
+msgstr "Account Name"
+
+msgid "plugins.paymethod.emspubstripe.settings.clientId"
+msgstr "Publishable Key"
+
+msgid "plugins.paymethod.emspubstripe.settings.secret"
+msgstr "Secret Key"
+msgid "plugins.paymethod.emspubstripe.paymentSuccess"
+msgstr "Payment Successful"
+
+msgid "plugins.paymethod.emspubstripe.purchase.success"
+msgstr "Your payment was successful. You can now continue."
+
+msgid "plugins.paymethod.emspubstripe.paymentCancelled"
+msgstr "Payment Cancelled"
+
+msgid "plugins.paymethod.emspubstripe.purchase.cancelled"
+msgstr "Your payment was cancelled."
+msgid "plugins.paymethod.emspubstripe.error"
+msgstr ""
+"A transaction error occurred. Please contact the journal manager for details."

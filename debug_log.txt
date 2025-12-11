@@ -1,0 +1,909 @@
+Stripe transaction exception: You must pass either `subscription_data` or `line_items` or `mode`.
+#0 /home/unix/projects/ojs/pages/payment/PaymentHandler.php(77): APP\plugins\paymethod\emspubstripe\EmsPubStripePaymentForm->display()
+#1 [internal function]: APP\pages\payment\PaymentHandler->pay()
+#2 /home/unix/projects/ojs/lib/pkp/classes/core/PKPRouter.php(327): call_user_func()
+#3 /home/unix/projects/ojs/lib/pkp/classes/core/PKPPageRouter.php(249): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#4 /home/unix/projects/ojs/lib/pkp/classes/core/Dispatcher.php(157): PKP\core\PKPPageRouter->route()
+#5 /home/unix/projects/ojs/lib/pkp/classes/core/PKPApplication.php(429): PKP\core\Dispatcher->dispatch()
+#6 /home/unix/projects/ojs/index.php(21): PKP\core\PKPApplication->execute()
+#7 {main}
+Stripe transaction exception: You must pass either `subscription_data` or `line_items` or `mode`.
+#0 /home/unix/projects/ojs/pages/payment/PaymentHandler.php(77): APP\plugins\paymethod\emspubstripe\EmsPubStripePaymentForm->display()
+#1 [internal function]: APP\pages\payment\PaymentHandler->pay()
+#2 /home/unix/projects/ojs/lib/pkp/classes/core/PKPRouter.php(327): call_user_func()
+#3 /home/unix/projects/ojs/lib/pkp/classes/core/PKPPageRouter.php(249): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#4 /home/unix/projects/ojs/lib/pkp/classes/core/Dispatcher.php(157): PKP\core\PKPPageRouter->route()
+#5 /home/unix/projects/ojs/lib/pkp/classes/core/PKPApplication.php(429): PKP\core\Dispatcher->dispatch()
+#6 /home/unix/projects/ojs/index.php(21): PKP\core\PKPApplication->execute()
+#7 {main}
+Stripe transaction exception: You must pass either `subscription_data` or `line_items` or `mode`.
+#0 /home/unix/projects/ojs/pages/payment/PaymentHandler.php(77): APP\plugins\paymethod\emspubstripe\EmsPubStripePaymentForm->display()
+#1 [internal function]: APP\pages\payment\PaymentHandler->pay()
+#2 /home/unix/projects/ojs/lib/pkp/classes/core/PKPRouter.php(327): call_user_func()
+#3 /home/unix/projects/ojs/lib/pkp/classes/core/PKPPageRouter.php(249): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#4 /home/unix/projects/ojs/lib/pkp/classes/core/Dispatcher.php(157): PKP\core\PKPPageRouter->route()
+#5 /home/unix/projects/ojs/lib/pkp/classes/core/PKPApplication.php(429): PKP\core\Dispatcher->dispatch()
+#6 /home/unix/projects/ojs/index.php(21): PKP\core\PKPApplication->execute()
+#7 {main}
+Stripe transaction exception: Stripe Session creation failed
+#0 /home/unix/projects/ojs/pages/payment/PaymentHandler.php(77): APP\plugins\paymethod\emspubstripe\EmsPubStripePaymentForm->display()
+#1 [internal function]: APP\pages\payment\PaymentHandler->pay()
+#2 /home/unix/projects/ojs/lib/pkp/classes/core/PKPRouter.php(327): call_user_func()
+#3 /home/unix/projects/ojs/lib/pkp/classes/core/PKPPageRouter.php(249): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#4 /home/unix/projects/ojs/lib/pkp/classes/core/Dispatcher.php(157): PKP\core\PKPPageRouter->route()
+#5 /home/unix/projects/ojs/lib/pkp/classes/core/PKPApplication.php(429): PKP\core\Dispatcher->dispatch()
+#6 /home/unix/projects/ojs/index.php(21): PKP\core\PKPApplication->execute()
+#7 {main}
+Stripe transaction exception: Stripe Session creation failed
+#0 /home/unix/projects/ojs/pages/payment/PaymentHandler.php(77): APP\plugins\paymethod\emspubstripe\EmsPubStripePaymentForm->display()
+#1 [internal function]: APP\pages\payment\PaymentHandler->pay()
+#2 /home/unix/projects/ojs/lib/pkp/classes/core/PKPRouter.php(327): call_user_func()
+#3 /home/unix/projects/ojs/lib/pkp/classes/core/PKPPageRouter.php(249): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#4 /home/unix/projects/ojs/lib/pkp/classes/core/Dispatcher.php(157): PKP\core\PKPPageRouter->route()
+#5 /home/unix/projects/ojs/lib/pkp/classes/core/PKPApplication.php(429): PKP\core\Dispatcher->dispatch()
+#6 /home/unix/projects/ojs/index.php(21): PKP\core\PKPApplication->execute()
+#7 {main}
+Stripe transaction exception: Stripe Session creation failed
+#0 /home/unix/projects/ojs/pages/payment/PaymentHandler.php(77): APP\plugins\paymethod\emspubstripe\EmsPubStripePaymentForm->display()
+#1 [internal function]: APP\pages\payment\PaymentHandler->pay()
+#2 /home/unix/projects/ojs/lib/pkp/classes/core/PKPRouter.php(327): call_user_func()
+#3 /home/unix/projects/ojs/lib/pkp/classes/core/PKPPageRouter.php(249): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#4 /home/unix/projects/ojs/lib/pkp/classes/core/Dispatcher.php(157): PKP\core\PKPPageRouter->route()
+#5 /home/unix/projects/ojs/lib/pkp/classes/core/PKPApplication.php(429): PKP\core\Dispatcher->dispatch()
+#6 /home/unix/projects/ojs/index.php(21): PKP\core\PKPApplication->execute()
+#7 {main}
+Stripe Response Data: array (
+  'id' => 'cs_test_a1HC77gBSmkMChpLBXMfJHGzbRggIYyVb2iA5POFqEPjZdaQY7wGbsUQCR',
+  'object' => 'checkout.session',
+  'adaptive_pricing' => 
+  array (
+    'enabled' => true,
+  ),
+  'after_expiration' => NULL,
+  'allow_promotion_codes' => NULL,
+  'amount_subtotal' => 14000,
+  'amount_total' => 14000,
+  'automatic_tax' => 
+  array (
+    'enabled' => false,
+    'liability' => NULL,
+    'provider' => NULL,
+    'status' => NULL,
+  ),
+  'billing_address_collection' => NULL,
+  'branding_settings' => 
+  array (
+    'background_color' => '#ffffff',
+    'border_style' => 'rounded',
+    'button_color' => '#0074d4',
+    'display_name' => 'New business sandbox',
+    'font_family' => 'default',
+    'icon' => NULL,
+    'logo' => NULL,
+  ),
+  'cancel_url' => 'http://localhost:8000/index.php/ijaar/index',
+  'client_reference_id' => NULL,
+  'client_secret' => NULL,
+  'collected_information' => NULL,
+  'consent' => NULL,
+  'consent_collection' => NULL,
+  'created' => 1765436006,
+  'currency' => 'usd',
+  'currency_conversion' => NULL,
+  'custom_fields' => 
+  array (
+  ),
+  'custom_text' => 
+  array (
+    'after_submit' => NULL,
+    'shipping_address' => NULL,
+    'submit' => NULL,
+    'terms_of_service_acceptance' => NULL,
+  ),
+  'customer' => NULL,
+  'customer_account' => NULL,
+  'customer_creation' => 'if_required',
+  'customer_details' => NULL,
+  'customer_email' => NULL,
+  'discounts' => 
+  array (
+  ),
+  'expires_at' => 1765522406,
+  'invoice' => NULL,
+  'invoice_creation' => 
+  array (
+    'enabled' => false,
+    'invoice_data' => 
+    array (
+      'account_tax_ids' => NULL,
+      'custom_fields' => NULL,
+      'description' => NULL,
+      'footer' => NULL,
+      'issuer' => NULL,
+      'metadata' => 
+      array (
+      ),
+      'rendering_options' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'locale' => NULL,
+  'metadata' => 
+  array (
+  ),
+  'mode' => 'payment',
+  'origin_context' => NULL,
+  'payment_intent' => NULL,
+  'payment_link' => NULL,
+  'payment_method_collection' => 'if_required',
+  'payment_method_configuration_details' => NULL,
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'payment_status' => 'unpaid',
+  'permissions' => NULL,
+  'phone_number_collection' => 
+  array (
+    'enabled' => false,
+  ),
+  'recovered_from' => NULL,
+  'saved_payment_method_options' => NULL,
+  'setup_intent' => NULL,
+  'shipping_address_collection' => NULL,
+  'shipping_cost' => NULL,
+  'shipping_options' => 
+  array (
+  ),
+  'status' => 'open',
+  'submit_type' => NULL,
+  'subscription' => NULL,
+  'success_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=1',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_shipping' => 0,
+    'amount_tax' => 0,
+  ),
+  'ui_mode' => 'hosted',
+  'url' => 'https://checkout.stripe.com/c/pay/cs_test_a1HC77gBSmkMChpLBXMfJHGzbRggIYyVb2iA5POFqEPjZdaQY7wGbsUQCR#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdkdWxOYHwnPyd1blpxYHZxWjA0VkhEclZDc0ZtQndvYlJNSDN8cDNuVld3aUhxSXVQU01uUWRGYTFwVldGYUxXMFxRbV9pf39wTFNGNXdscWc3STA2TzZOTmk9NlduMTx%2FPXVAbl00XWdVNTVsR0h0dWEzUCcpJ2N3amhWYHdzYHcnP3F3cGApJ2dkZm5id2pwa2FGamlqdyc%2FJyZjY2NjY2MnKSdpZHxqcHFRfHVgJz8ndmxrYmlgWmxxYGgnKSdga2RnaWBVaWRmYG1qaWFgd3YnP3F3cGB4JSUl',
+  'wallet_options' => NULL,
+)
+Stripe transaction exception: Stripe Session creation failed
+#0 /home/unix/projects/ojs/pages/payment/PaymentHandler.php(77): APP\plugins\paymethod\emspubstripe\EmsPubStripePaymentForm->display()
+#1 [internal function]: APP\pages\payment\PaymentHandler->pay()
+#2 /home/unix/projects/ojs/lib/pkp/classes/core/PKPRouter.php(327): call_user_func()
+#3 /home/unix/projects/ojs/lib/pkp/classes/core/PKPPageRouter.php(249): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#4 /home/unix/projects/ojs/lib/pkp/classes/core/Dispatcher.php(157): PKP\core\PKPPageRouter->route()
+#5 /home/unix/projects/ojs/lib/pkp/classes/core/PKPApplication.php(429): PKP\core\Dispatcher->dispatch()
+#6 /home/unix/projects/ojs/index.php(21): PKP\core\PKPApplication->execute()
+#7 {main}
+Stripe Response Data: array (
+  'id' => 'cs_test_a11LiiXabM4wwM4yOeufGeQ8kpN5TelNa8uv3dbbXGhOlxkD4jkP90g11b',
+  'object' => 'checkout.session',
+  'adaptive_pricing' => 
+  array (
+    'enabled' => true,
+  ),
+  'after_expiration' => NULL,
+  'allow_promotion_codes' => NULL,
+  'amount_subtotal' => 14000,
+  'amount_total' => 14000,
+  'automatic_tax' => 
+  array (
+    'enabled' => false,
+    'liability' => NULL,
+    'provider' => NULL,
+    'status' => NULL,
+  ),
+  'billing_address_collection' => NULL,
+  'branding_settings' => 
+  array (
+    'background_color' => '#ffffff',
+    'border_style' => 'rounded',
+    'button_color' => '#0074d4',
+    'display_name' => 'New business sandbox',
+    'font_family' => 'default',
+    'icon' => NULL,
+    'logo' => NULL,
+  ),
+  'cancel_url' => 'http://localhost:8000/index.php/ijaar/index',
+  'client_reference_id' => NULL,
+  'client_secret' => NULL,
+  'collected_information' => NULL,
+  'consent' => NULL,
+  'consent_collection' => NULL,
+  'created' => 1765436010,
+  'currency' => 'usd',
+  'currency_conversion' => NULL,
+  'custom_fields' => 
+  array (
+  ),
+  'custom_text' => 
+  array (
+    'after_submit' => NULL,
+    'shipping_address' => NULL,
+    'submit' => NULL,
+    'terms_of_service_acceptance' => NULL,
+  ),
+  'customer' => NULL,
+  'customer_account' => NULL,
+  'customer_creation' => 'if_required',
+  'customer_details' => NULL,
+  'customer_email' => NULL,
+  'discounts' => 
+  array (
+  ),
+  'expires_at' => 1765522409,
+  'invoice' => NULL,
+  'invoice_creation' => 
+  array (
+    'enabled' => false,
+    'invoice_data' => 
+    array (
+      'account_tax_ids' => NULL,
+      'custom_fields' => NULL,
+      'description' => NULL,
+      'footer' => NULL,
+      'issuer' => NULL,
+      'metadata' => 
+      array (
+      ),
+      'rendering_options' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'locale' => NULL,
+  'metadata' => 
+  array (
+  ),
+  'mode' => 'payment',
+  'origin_context' => NULL,
+  'payment_intent' => NULL,
+  'payment_link' => NULL,
+  'payment_method_collection' => 'if_required',
+  'payment_method_configuration_details' => NULL,
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'payment_status' => 'unpaid',
+  'permissions' => NULL,
+  'phone_number_collection' => 
+  array (
+    'enabled' => false,
+  ),
+  'recovered_from' => NULL,
+  'saved_payment_method_options' => NULL,
+  'setup_intent' => NULL,
+  'shipping_address_collection' => NULL,
+  'shipping_cost' => NULL,
+  'shipping_options' => 
+  array (
+  ),
+  'status' => 'open',
+  'submit_type' => NULL,
+  'subscription' => NULL,
+  'success_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=1',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_shipping' => 0,
+    'amount_tax' => 0,
+  ),
+  'ui_mode' => 'hosted',
+  'url' => 'https://checkout.stripe.com/c/pay/cs_test_a11LiiXabM4wwM4yOeufGeQ8kpN5TelNa8uv3dbbXGhOlxkD4jkP90g11b#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdkdWxOYHwnPyd1blpxYHZxWjA0VkhEclZDc0ZtQndvYlJNSDN8cDNuVld3aUhxSXVQU01uUWRGYTFwVldGYUxXMFxRbV9pf39wTFNGNXdscWc3STA2TzZOTmk9NlduMTx%2FPXVAbl00XWdVNTVsR0h0dWEzUCcpJ2N3amhWYHdzYHcnP3F3cGApJ2dkZm5id2pwa2FGamlqdyc%2FJyZjY2NjY2MnKSdpZHxqcHFRfHVgJz8ndmxrYmlgWmxxYGgnKSdga2RnaWBVaWRmYG1qaWFgd3YnP3F3cGB4JSUl',
+  'wallet_options' => NULL,
+)
+Stripe transaction exception: Stripe Session creation failed
+#0 /home/unix/projects/ojs/pages/payment/PaymentHandler.php(77): APP\plugins\paymethod\emspubstripe\EmsPubStripePaymentForm->display()
+#1 [internal function]: APP\pages\payment\PaymentHandler->pay()
+#2 /home/unix/projects/ojs/lib/pkp/classes/core/PKPRouter.php(327): call_user_func()
+#3 /home/unix/projects/ojs/lib/pkp/classes/core/PKPPageRouter.php(249): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#4 /home/unix/projects/ojs/lib/pkp/classes/core/Dispatcher.php(157): PKP\core\PKPPageRouter->route()
+#5 /home/unix/projects/ojs/lib/pkp/classes/core/PKPApplication.php(429): PKP\core\Dispatcher->dispatch()
+#6 /home/unix/projects/ojs/index.php(21): PKP\core\PKPApplication->execute()
+#7 {main}
+Stripe Response Data: array (
+  'id' => 'cs_test_a1dvsWoYKWHtWmK6GxsJUbqIiRWi7J1iOsfHajpp5dKrzZ4SEUMegp5ZjE',
+  'object' => 'checkout.session',
+  'adaptive_pricing' => 
+  array (
+    'enabled' => true,
+  ),
+  'after_expiration' => NULL,
+  'allow_promotion_codes' => NULL,
+  'amount_subtotal' => 14000,
+  'amount_total' => 14000,
+  'automatic_tax' => 
+  array (
+    'enabled' => false,
+    'liability' => NULL,
+    'provider' => NULL,
+    'status' => NULL,
+  ),
+  'billing_address_collection' => NULL,
+  'branding_settings' => 
+  array (
+    'background_color' => '#ffffff',
+    'border_style' => 'rounded',
+    'button_color' => '#0074d4',
+    'display_name' => 'New business sandbox',
+    'font_family' => 'default',
+    'icon' => NULL,
+    'logo' => NULL,
+  ),
+  'cancel_url' => 'http://localhost:8000/index.php/ijaar/index',
+  'client_reference_id' => NULL,
+  'client_secret' => NULL,
+  'collected_information' => NULL,
+  'consent' => NULL,
+  'consent_collection' => NULL,
+  'created' => 1765436024,
+  'currency' => 'usd',
+  'currency_conversion' => NULL,
+  'custom_fields' => 
+  array (
+  ),
+  'custom_text' => 
+  array (
+    'after_submit' => NULL,
+    'shipping_address' => NULL,
+    'submit' => NULL,
+    'terms_of_service_acceptance' => NULL,
+  ),
+  'customer' => NULL,
+  'customer_account' => NULL,
+  'customer_creation' => 'if_required',
+  'customer_details' => NULL,
+  'customer_email' => NULL,
+  'discounts' => 
+  array (
+  ),
+  'expires_at' => 1765522424,
+  'invoice' => NULL,
+  'invoice_creation' => 
+  array (
+    'enabled' => false,
+    'invoice_data' => 
+    array (
+      'account_tax_ids' => NULL,
+      'custom_fields' => NULL,
+      'description' => NULL,
+      'footer' => NULL,
+      'issuer' => NULL,
+      'metadata' => 
+      array (
+      ),
+      'rendering_options' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'locale' => NULL,
+  'metadata' => 
+  array (
+  ),
+  'mode' => 'payment',
+  'origin_context' => NULL,
+  'payment_intent' => NULL,
+  'payment_link' => NULL,
+  'payment_method_collection' => 'if_required',
+  'payment_method_configuration_details' => NULL,
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'payment_status' => 'unpaid',
+  'permissions' => NULL,
+  'phone_number_collection' => 
+  array (
+    'enabled' => false,
+  ),
+  'recovered_from' => NULL,
+  'saved_payment_method_options' => NULL,
+  'setup_intent' => NULL,
+  'shipping_address_collection' => NULL,
+  'shipping_cost' => NULL,
+  'shipping_options' => 
+  array (
+  ),
+  'status' => 'open',
+  'submit_type' => NULL,
+  'subscription' => NULL,
+  'success_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=1',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_shipping' => 0,
+    'amount_tax' => 0,
+  ),
+  'ui_mode' => 'hosted',
+  'url' => 'https://checkout.stripe.com/c/pay/cs_test_a1dvsWoYKWHtWmK6GxsJUbqIiRWi7J1iOsfHajpp5dKrzZ4SEUMegp5ZjE#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdkdWxOYHwnPyd1blpxYHZxWjA0VkhEclZDc0ZtQndvYlJNSDN8cDNuVld3aUhxSXVQU01uUWRGYTFwVldGYUxXMFxRbV9pf39wTFNGNXdscWc3STA2TzZOTmk9NlduMTx%2FPXVAbl00XWdVNTVsR0h0dWEzUCcpJ2N3amhWYHdzYHcnP3F3cGApJ2dkZm5id2pwa2FGamlqdyc%2FJyZjY2NjY2MnKSdpZHxqcHFRfHVgJz8ndmxrYmlgWmxxYGgnKSdga2RnaWBVaWRmYG1qaWFgd3YnP3F3cGB4JSUl',
+  'wallet_options' => NULL,
+)
+Stripe transaction exception: Stripe Session creation failed
+#0 /home/unix/projects/ojs/pages/payment/PaymentHandler.php(77): APP\plugins\paymethod\emspubstripe\EmsPubStripePaymentForm->display()
+#1 [internal function]: APP\pages\payment\PaymentHandler->pay()
+#2 /home/unix/projects/ojs/lib/pkp/classes/core/PKPRouter.php(327): call_user_func()
+#3 /home/unix/projects/ojs/lib/pkp/classes/core/PKPPageRouter.php(249): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#4 /home/unix/projects/ojs/lib/pkp/classes/core/Dispatcher.php(157): PKP\core\PKPPageRouter->route()
+#5 /home/unix/projects/ojs/lib/pkp/classes/core/PKPApplication.php(429): PKP\core\Dispatcher->dispatch()
+#6 /home/unix/projects/ojs/index.php(21): PKP\core\PKPApplication->execute()
+#7 {main}
+Stripe Handle Data: array (
+  'id' => 'cs_test_a13ugx3NJjimDpCYvKHbParUha1Cbjq4MtMXYcgvtLogTjDhlYXthv4Q0h',
+  'object' => 'checkout.session',
+  'adaptive_pricing' => 
+  array (
+    'enabled' => true,
+  ),
+  'after_expiration' => NULL,
+  'allow_promotion_codes' => NULL,
+  'amount_subtotal' => 14000,
+  'amount_total' => 14000,
+  'automatic_tax' => 
+  array (
+    'enabled' => false,
+    'liability' => NULL,
+    'provider' => NULL,
+    'status' => NULL,
+  ),
+  'billing_address_collection' => NULL,
+  'branding_settings' => 
+  array (
+    'background_color' => '#ffffff',
+    'border_style' => 'rounded',
+    'button_color' => '#0074d4',
+    'display_name' => 'New business sandbox',
+    'font_family' => 'default',
+    'icon' => NULL,
+    'logo' => NULL,
+  ),
+  'cancel_url' => 'http://localhost:8000/index.php/ijaar/index',
+  'client_reference_id' => NULL,
+  'client_secret' => NULL,
+  'collected_information' => NULL,
+  'consent' => NULL,
+  'consent_collection' => NULL,
+  'created' => 1765436893,
+  'currency' => 'usd',
+  'currency_conversion' => NULL,
+  'custom_fields' => 
+  array (
+  ),
+  'custom_text' => 
+  array (
+    'after_submit' => NULL,
+    'shipping_address' => NULL,
+    'submit' => NULL,
+    'terms_of_service_acceptance' => NULL,
+  ),
+  'customer' => NULL,
+  'customer_account' => NULL,
+  'customer_creation' => 'if_required',
+  'customer_details' => 
+  array (
+    'address' => 
+    array (
+      'city' => NULL,
+      'country' => 'BD',
+      'line1' => NULL,
+      'line2' => NULL,
+      'postal_code' => NULL,
+      'state' => NULL,
+    ),
+    'business_name' => NULL,
+    'email' => 'support@exomeit.com',
+    'individual_name' => NULL,
+    'name' => 'Hasanur Rahman',
+    'phone' => NULL,
+    'tax_exempt' => 'none',
+    'tax_ids' => 
+    array (
+    ),
+  ),
+  'customer_email' => NULL,
+  'discounts' => 
+  array (
+  ),
+  'expires_at' => 1765523293,
+  'invoice' => NULL,
+  'invoice_creation' => 
+  array (
+    'enabled' => false,
+    'invoice_data' => 
+    array (
+      'account_tax_ids' => NULL,
+      'custom_fields' => NULL,
+      'description' => NULL,
+      'footer' => NULL,
+      'issuer' => NULL,
+      'metadata' => 
+      array (
+      ),
+      'rendering_options' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'locale' => NULL,
+  'metadata' => 
+  array (
+  ),
+  'mode' => 'payment',
+  'origin_context' => NULL,
+  'payment_intent' => 'pi_3Sd3zIFvChGrjgWH0HafybiN',
+  'payment_link' => NULL,
+  'payment_method_collection' => 'if_required',
+  'payment_method_configuration_details' => NULL,
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'payment_status' => 'paid',
+  'permissions' => NULL,
+  'phone_number_collection' => 
+  array (
+    'enabled' => false,
+  ),
+  'presentment_details' => 
+  array (
+    'presentment_amount' => 1778882,
+    'presentment_currency' => 'bdt',
+  ),
+  'recovered_from' => NULL,
+  'saved_payment_method_options' => NULL,
+  'setup_intent' => NULL,
+  'shipping_address_collection' => NULL,
+  'shipping_cost' => NULL,
+  'shipping_options' => 
+  array (
+  ),
+  'status' => 'complete',
+  'submit_type' => NULL,
+  'subscription' => NULL,
+  'success_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=1&session_id={CHECKOUT_SESSION_ID}',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_shipping' => 0,
+    'amount_tax' => 0,
+  ),
+  'ui_mode' => 'hosted',
+  'url' => NULL,
+  'wallet_options' => NULL,
+)
+Stripe Handle Data: array (
+  'id' => 'cs_test_a1qQhR1rAGtdNM9lB6LV7iDOoHW0GTNmKrqQ6IrZK2UYz4xgKV1OKPKfeb',
+  'object' => 'checkout.session',
+  'adaptive_pricing' => 
+  array (
+    'enabled' => true,
+  ),
+  'after_expiration' => NULL,
+  'allow_promotion_codes' => NULL,
+  'amount_subtotal' => 14000,
+  'amount_total' => 14000,
+  'automatic_tax' => 
+  array (
+    'enabled' => false,
+    'liability' => NULL,
+    'provider' => NULL,
+    'status' => NULL,
+  ),
+  'billing_address_collection' => NULL,
+  'branding_settings' => 
+  array (
+    'background_color' => '#ffffff',
+    'border_style' => 'rounded',
+    'button_color' => '#0074d4',
+    'display_name' => 'New business sandbox',
+    'font_family' => 'default',
+    'icon' => NULL,
+    'logo' => NULL,
+  ),
+  'cancel_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=2&status=cancel',
+  'client_reference_id' => NULL,
+  'client_secret' => NULL,
+  'collected_information' => NULL,
+  'consent' => NULL,
+  'consent_collection' => NULL,
+  'created' => 1765438569,
+  'currency' => 'usd',
+  'currency_conversion' => NULL,
+  'custom_fields' => 
+  array (
+  ),
+  'custom_text' => 
+  array (
+    'after_submit' => NULL,
+    'shipping_address' => NULL,
+    'submit' => NULL,
+    'terms_of_service_acceptance' => NULL,
+  ),
+  'customer' => NULL,
+  'customer_account' => NULL,
+  'customer_creation' => 'if_required',
+  'customer_details' => 
+  array (
+    'address' => 
+    array (
+      'city' => NULL,
+      'country' => 'BD',
+      'line1' => NULL,
+      'line2' => NULL,
+      'postal_code' => NULL,
+      'state' => NULL,
+    ),
+    'business_name' => NULL,
+    'email' => 'support@exomeit.com',
+    'individual_name' => NULL,
+    'name' => 'Hasanur Rahman',
+    'phone' => NULL,
+    'tax_exempt' => 'none',
+    'tax_ids' => 
+    array (
+    ),
+  ),
+  'customer_email' => NULL,
+  'discounts' => 
+  array (
+  ),
+  'expires_at' => 1765524969,
+  'invoice' => NULL,
+  'invoice_creation' => 
+  array (
+    'enabled' => false,
+    'invoice_data' => 
+    array (
+      'account_tax_ids' => NULL,
+      'custom_fields' => NULL,
+      'description' => NULL,
+      'footer' => NULL,
+      'issuer' => NULL,
+      'metadata' => 
+      array (
+      ),
+      'rendering_options' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'locale' => NULL,
+  'metadata' => 
+  array (
+  ),
+  'mode' => 'payment',
+  'origin_context' => NULL,
+  'payment_intent' => 'pi_3Sd4QLFvChGrjgWH1f41RrpF',
+  'payment_link' => NULL,
+  'payment_method_collection' => 'if_required',
+  'payment_method_configuration_details' => NULL,
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'payment_status' => 'paid',
+  'permissions' => NULL,
+  'phone_number_collection' => 
+  array (
+    'enabled' => false,
+  ),
+  'presentment_details' => 
+  array (
+    'presentment_amount' => 1778882,
+    'presentment_currency' => 'bdt',
+  ),
+  'recovered_from' => NULL,
+  'saved_payment_method_options' => NULL,
+  'setup_intent' => NULL,
+  'shipping_address_collection' => NULL,
+  'shipping_cost' => NULL,
+  'shipping_options' => 
+  array (
+  ),
+  'status' => 'complete',
+  'submit_type' => NULL,
+  'subscription' => NULL,
+  'success_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=2&session_id={CHECKOUT_SESSION_ID}',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_shipping' => 0,
+    'amount_tax' => 0,
+  ),
+  'ui_mode' => 'hosted',
+  'url' => NULL,
+  'wallet_options' => NULL,
+)
+Stripe Handle Exception: Unable to load template 'app:plugins/paymethod/emspubstripe/templatespaymentCancel.tpl'
+Stripe Handle Exception: Unable to load template 'app:plugins/paymethod/emspubstripe/templatespaymentCancel.tpl'
+Stripe Handle Exception: Unable to load template 'app:plugins/paymethod/emspubstripe/templatespaymentCancel.tpl'
+Stripe Handle Exception: Unable to load template 'app:plugins/paymethod/emspubstripe/templatespaymentCancel.tpl'
+Stripe Handle Exception: Unable to load template 'app:plugins/paymethod/emspubstripe/templates/paymentCancel.tpl'
+Stripe Handle Exception: Unable to load template 'app:plugins/paymethod/emspubstripe/templates/paymentCancel.tpl'
+Stripe Handle Exception: Unable to load template 'app:plugins/paymethod/emspubstripe/templates/paymentCancel.tpl'
+Stripe Handle Exception: Unable to load template 'app:plugins/paymethod/emspubstripe/templates/paymentCancel.tpl'
+Stripe Handle Exception: Unable to load template 'app:plugins/paymethod/emspubstripe/templates/paymentCancel.tpl'
+Stripe Handle Data: array (
+  'id' => 'cs_test_a18ERpKwCa4qepY9q6kTgGB8MrFemC2QL3RoTgdfrDfgIupFQ5rDDKgCQW',
+  'object' => 'checkout.session',
+  'adaptive_pricing' => 
+  array (
+    'enabled' => true,
+  ),
+  'after_expiration' => NULL,
+  'allow_promotion_codes' => NULL,
+  'amount_subtotal' => 14000,
+  'amount_total' => 14000,
+  'automatic_tax' => 
+  array (
+    'enabled' => false,
+    'liability' => NULL,
+    'provider' => NULL,
+    'status' => NULL,
+  ),
+  'billing_address_collection' => NULL,
+  'branding_settings' => 
+  array (
+    'background_color' => '#ffffff',
+    'border_style' => 'rounded',
+    'button_color' => '#0074d4',
+    'display_name' => 'New business sandbox',
+    'font_family' => 'default',
+    'icon' => NULL,
+    'logo' => NULL,
+  ),
+  'cancel_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=3&status=cancel',
+  'client_reference_id' => NULL,
+  'client_secret' => NULL,
+  'collected_information' => NULL,
+  'consent' => NULL,
+  'consent_collection' => NULL,
+  'created' => 1765440399,
+  'currency' => 'usd',
+  'currency_conversion' => NULL,
+  'custom_fields' => 
+  array (
+  ),
+  'custom_text' => 
+  array (
+    'after_submit' => NULL,
+    'shipping_address' => NULL,
+    'submit' => NULL,
+    'terms_of_service_acceptance' => NULL,
+  ),
+  'customer' => NULL,
+  'customer_account' => NULL,
+  'customer_creation' => 'if_required',
+  'customer_details' => 
+  array (
+    'address' => 
+    array (
+      'city' => NULL,
+      'country' => 'BD',
+      'line1' => NULL,
+      'line2' => NULL,
+      'postal_code' => NULL,
+      'state' => NULL,
+    ),
+    'business_name' => NULL,
+    'email' => 'support@exomeit.com',
+    'individual_name' => NULL,
+    'name' => 'Hasanur Rahman',
+    'phone' => NULL,
+    'tax_exempt' => 'none',
+    'tax_ids' => 
+    array (
+    ),
+  ),
+  'customer_email' => NULL,
+  'discounts' => 
+  array (
+  ),
+  'expires_at' => 1765526799,
+  'invoice' => NULL,
+  'invoice_creation' => 
+  array (
+    'enabled' => false,
+    'invoice_data' => 
+    array (
+      'account_tax_ids' => NULL,
+      'custom_fields' => NULL,
+      'description' => NULL,
+      'footer' => NULL,
+      'issuer' => NULL,
+      'metadata' => 
+      array (
+      ),
+      'rendering_options' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'locale' => NULL,
+  'metadata' => 
+  array (
+  ),
+  'mode' => 'payment',
+  'origin_context' => NULL,
+  'payment_intent' => 'pi_3Sd4tqFvChGrjgWH0w8QhWkL',
+  'payment_link' => NULL,
+  'payment_method_collection' => 'if_required',
+  'payment_method_configuration_details' => NULL,
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'payment_status' => 'paid',
+  'permissions' => NULL,
+  'phone_number_collection' => 
+  array (
+    'enabled' => false,
+  ),
+  'presentment_details' => 
+  array (
+    'presentment_amount' => 1779581,
+    'presentment_currency' => 'bdt',
+  ),
+  'recovered_from' => NULL,
+  'saved_payment_method_options' => NULL,
+  'setup_intent' => NULL,
+  'shipping_address_collection' => NULL,
+  'shipping_cost' => NULL,
+  'shipping_options' => 
+  array (
+  ),
+  'status' => 'complete',
+  'submit_type' => NULL,
+  'subscription' => NULL,
+  'success_url' => 'http://localhost:8000/index.php/ijaar/payment/plugin/EmsPubStripePayment/return?queuedPaymentId=3&session_id={CHECKOUT_SESSION_ID}',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_shipping' => 0,
+    'amount_tax' => 0,
+  ),
+  'ui_mode' => 'hosted',
+  'url' => NULL,
+  'wallet_options' => NULL,
+)
