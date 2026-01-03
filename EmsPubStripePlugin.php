@@ -242,10 +242,11 @@ class EmsPubStripePlugin extends PaymethodPlugin
                 if (isset($data['payment_status']) && $data['payment_status'] === 'paid') {
                     $paymentManager->fulfillQueuedPayment($request, $queuedPayment, $this->getName());
                     
-                    // Display Success Page instead of auto-redirect
+                    // Show success template with link to My Invoices page
+                    $pendingPaymentsUrl = $request->url(null, 'emspubcore', 'pendingPayments');
                     $templateMgr = TemplateManager::getManager($request);
                     $templateMgr->assign([
-                        'backLink' => $dashboardUrl,
+                        'backLink' => $pendingPaymentsUrl,
                         'itemName' => $itemName,
                         'amount' => $amount,
                         'currency' => $currency,
