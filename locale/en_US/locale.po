@@ -34,6 +34,7 @@ msgstr "Publishable Key"
 
 msgid "plugins.paymethod.emspubstripe.settings.secret"
 msgstr "Secret Key"
+
 msgid "plugins.paymethod.emspubstripe.paymentSuccess"
 msgstr "Payment Successful"
 

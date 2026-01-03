@@ -218,7 +218,7 @@ class EmsPubStripePlugin extends PaymethodPlugin
                 // Try fallback parameter name if session_id is missing, though we set it explicitly
                 // Stripe Checkout usually returns session_id if configured.
                 // Log if missing
-                 file_put_contents(dirname(__FILE__) . '/debug_log.txt', "Stripe Handle Error: Missing session_id parameter.\n", FILE_APPEND);
+                 // Debug removed for production security
                  throw new \Exception("Missing session_id return parameter.");
             }
 
@@ -237,7 +237,7 @@ class EmsPubStripePlugin extends PaymethodPlugin
             if ($response->isSuccessful()) {
                 $data = $response->getData();
                 // Log the successful fetch data
-                 file_put_contents(dirname(__FILE__) . '/debug_log.txt', "Stripe Handle Data: " . var_export($data, true) . "\n", FILE_APPEND);
+                 // Debug logging removed for production security
                 
                 if (isset($data['payment_status']) && $data['payment_status'] === 'paid') {
                     $paymentManager->fulfillQueuedPayment($request, $queuedPayment, $this->getName());
@@ -256,11 +256,11 @@ class EmsPubStripePlugin extends PaymethodPlugin
                      throw new \Exception('Payment status is not paid. Status: ' . ($data['payment_status'] ?? 'unknown'));
                 }
             } else {
-                file_put_contents(dirname(__FILE__) . '/debug_log.txt', "Stripe Fetch Failed: " . $response->getMessage() . "\n", FILE_APPEND);
+                error_log('Stripe Fetch Failed: ' . $response->getMessage());
                 throw new \Exception('Fetch transaction failed: ' . $response->getMessage());
             }
         } catch (\Exception $e) {
-            file_put_contents(dirname(__FILE__) . '/debug_log.txt', "Stripe Handle Exception: " . $e->getMessage() . "\n", FILE_APPEND);
+
             error_log('Stripe transaction exception: ' . $e->getMessage());
             $templateMgr = TemplateManager::getManager($request);
             $templateMgr->assign('message', 'plugins.paymethod.emspubstripe.error');

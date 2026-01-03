@@ -13,6 +13,6 @@
 <version>
 	<application>emspubstripe</application>
 	<type>plugins.paymethod</type>
-	<release>1.0.0.0</release>
+	<release>1.0.0.1</release>
 	<date>2025-12-11</date>
 </version>

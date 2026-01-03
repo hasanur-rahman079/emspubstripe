@@ -139,11 +139,10 @@ class EmsPubStripePaymentForm extends Form
              }
              
              // If not redirecting, something failed
-             file_put_contents(dirname(__FILE__) . '/debug_log.txt', "Stripe Response Data: " . var_export($response->getData(), true) . "\n", FILE_APPEND);
+             error_log('Stripe Session creation failed: ' . var_export($response->getData(), true));
              throw new \Exception($response->getMessage() ?? 'Stripe Session creation failed');
 
         } catch (\Exception $e) {
-            file_put_contents(dirname(__FILE__) . '/debug_log.txt', 'Stripe transaction exception: ' . $e->getMessage() . "\n" . $e->getTraceAsString() . "\n", FILE_APPEND);
             error_log('Stripe transaction exception: ' . $e->getMessage());
             $templateMgr = TemplateManager::getManager($request);
             $templateMgr->assign('message', 'plugins.paymethod.emspubstripe.error');
